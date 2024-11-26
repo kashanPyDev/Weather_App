@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Baloo Bhai 2", sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url(./images/bg.jpg) no-repeat center center/cover;
+}
+
+.container {
+    width: 370px;
+    height: auto;
+    background-color: rgba(22, 87, 207, 0.503);
+    border-radius: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+}
+
+.search-box {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 10px 15px;
+    background-color: rgba(6, 197, 255, 0.86);
+    border-radius: 25px;
+    margin-bottom: 20px;
+    position: relative;
+    border: 1px solid rgba(255, 255, 255, 0.6);
+    box-shadow: 0px 0px 5px rgb(218, 229, 10);
+}
+
+.search-box i {
+    color: #fff;
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.search-box input {
+    flex: 1;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+}
+
+.search-box input::placeholder {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.search-box button {
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+    position: absolute;
+    right: 15px;
+}
+
+.weather-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.weather-box img {
+    width: 200px;
+    margin-bottom: 10px;
+}
+
+.weather-box .temperature {
+    font-size: 70px;
+    font-weight: 600;
+    margin-top: 0px;
+}
+
+.weather-box .temperature span {
+    font-size: 50px;
+}
+
+.weather-box .description {
+    font-size: 27px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.weather-details {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.weather-details .humidity, .weather-details .wind {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.weather-details .humidity i, .weather-details .wind i {
+    font-size: 39px;
+    color: #fff;
+    margin-bottom: 5px;
+}
+
+.weather-details .text span {
+    font-size: 18px;
+    font-weight: 500;
+    justify-content: center;
+}
+
+.weather-details .text p {
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

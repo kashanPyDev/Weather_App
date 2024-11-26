@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@400;500;600&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Search Box -->
+        <div class="search-box">
+            <i class="bx bx-world"></i>
+            <input type="text" placeholder="Enter Your Location">
+            <button class="bx bx-search-alt"></button>
+        </div>
+
+        <!-- Weather Box -->
+        <div class="weather-box">
+            <img src="./images/cloud.png" alt="weather icon">
+            <p class="temperature">0<span>&deg;C</span></p>
+            <p class="description">Broken Clouds</p>
+        </div>
+
+        <!-- Weather Details -->
+        <div class="weather-details">
+            <div class="humidity">
+                <i class="bx bx-water"></i>
+                <div class="text">
+                    <span>0%</span>
+                    <p>Humidity</p>
+                </div>
+            </div>
+            <div class="wind">
+                <i class="bx bx-wind"></i>
+                <div class="text">
+                    <span>0km/h</span>
+                    <p>Wind Speed</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
